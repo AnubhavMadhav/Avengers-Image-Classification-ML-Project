@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hey {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 20px;
+}
+
+.choose {
+    position: relative;
+    top: 90px;
+    right: 150px;
+    left: 20px;
+}
+
+.submit {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 100px;
+}
+
+.output {
+    position: relative;
+    top: 160px;
+    height: auto;
+    width: 500px;
+    left: 210px;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: #1C2331!important;
+}
+
+.heading {
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.heading2 {
+    color: white;
+    position: absolute;
+    top: 340px;
+    left: 140px;
+}
+
+.btn {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.486);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid purple;
+    border-radius: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+    left: 250px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgba(128, 19, 128, 0.801);
+    color: white;
+    border: 2px solid rgba(148, 46, 148, 0.897);
+    /* border: none; */
+}
+
+.choose {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.486);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid purple;
+    border-radius: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: relative;
+    left: 250px;
+}
+
+.choose:hover,
+.choose:active {
+    background-color: rgba(128, 19, 128, 0.801);
+    color: white;
+    border: 2px solid rgba(148, 46, 148, 0.897);
+    /* border: none; */
+}

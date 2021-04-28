@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 
-     <title>MPG prediction usecase</title>
+     <title>Avengers Image Classification</title>
 
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -16,6 +16,7 @@
      <link rel="stylesheet" href="{% static 'css/animate.css' %}" >
      <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}" >
      <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}" >
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
      <!-- MAIN CSS -->
 
@@ -36,14 +37,14 @@
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>MPG Problem</a>
+                    <a href="/" class="navbar-brand"><i class="fa fa-h-square"></i>Avengers Image Classification</a>
                </div>
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="/" class="smoothScroll">Home</a></li>
-                         <li><a href="viewDataBase" class="smoothScroll">View gallery</a></li>
+                         <li><a href="viewDataBase" class="smoothScroll">History</a></li>
                     </ul>
                </div>
 
@@ -63,7 +64,7 @@
 </div>
 
      <!-- FOOTER -->
-     <footer data-stellar-background-ratio="5">
+     {% comment %} <footer data-stellar-background-ratio="5">
           <div class="container">
                <div class="row">
 
@@ -90,7 +91,7 @@
                     
                </div>
           </div>
-     </footer>
+     </footer> {% endcomment %}
 
      <!-- SCRIPTS -->
      <script  src="{% static 'js/jquery.js' %}"></script>

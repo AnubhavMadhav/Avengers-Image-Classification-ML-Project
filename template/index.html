@@ -1,27 +1,21 @@
-{% extends 'headerPage.html' %}
+ {% extends 'headerPage.html' %} {% block content%}
 
-{% block content%}
+<h2 class="heading">Uplaod Image of an Avenger</h2>
 
-    <h2>Uplaod Image for Classification</h2>
 
-    
-    <br>
-   
-    <form method="post" enctype="multipart/form-data" action="predictImage">
-  
- {% csrf_token %}
- <div class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br>
- <br>
-
- 
- <input type="submit" value="Submit" ></div>
-
- <h2>The classification of the image is {{predictedLabel}}</h2>
- <img src={{filePathName}} alt='imagename'>
- {{filePathName}}
-
-</form>
 <br>
 
+<form method="post" enctype="multipart/form-data" action="predictImage">
 
-{% endblock %}
+    {% csrf_token %}
+    <div class="col-md-4 col-sm-4 hey"> </div> <input class="choose" name="filePath" type="file"><br><br>
+    <br>
+
+
+    <input class="submit btn" type="submit" value="Submit"></div>
+
+    <h2 class="heading2">The classification of the image is {{predictedLabel}}</h2>
+    <img class="output" src={{filePathName}} alt='imagename'> 
+
+</form>
+<br> {% endblock %}
